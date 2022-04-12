@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# trafficsigns
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of trafficsigns is to provide a data set of traffic signs.
+
+## Installation
+
+You can install the development version of trafficsigns like so:
+
+``` r
+remotes::install_github("emilhvitfeldt/trafficsigns")
+```
+
+## Example
+
+This package contain a single data set `signs`
+
+```{r example}
+library(trafficsigns)
+library(tibble)
+
+signs
+```
